@@ -1,42 +1,52 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Widy Guilias</title>
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>Widy Gui</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
 </head>
 <body>
-	<div class='container'>
-		<div class='row' id='header'>
-			<h1>WIDY GUI</h1>
-			<div class='col-sm-12'>
-				<ul class='list-inline'>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="html/portfolio.html">Portfolio</a></li>
-					<li><a href="html/resume.html">Resume</a></li>
-					<li><a href="html/contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
 
-		<div class='row' id='content'>
-			<img src="img/me.jpg" class="rounded-circle" alt="me" width="400" height="400"> 
-			<h1>Hi, I'm Widy Gui. I am a software developer.</h1>
-			<p>IT Professional with +4 years of experience in technical assistance for e-Channel department especially in Internet Banking and Mobile Banking channel</p>
-			<p>I am excellent about supplying technical assistance for head quarter office and branch office.</p>
-		</div>
+<div class="jumbotron text-center" style="margin-bottom:0; background-image: url('img/jumbo-bg2.jpg'); background-size: auto;">
+  <h1>Welcome To My Website</h1>
+</div>
 
-		<div class='row' id='footer'>
-			<div class='col-sm-12'>
-				<ul class='list-inline'>
-					<li><a href="https://www.instagram.com/widygui">Instagram</a></li>
-					<li><a href="https://github.com/widygui93">Github</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>This is ME</h5>
+      <div><img src="img/me.jpg" alt="me" class="fakeimg"> </div>
+      <p>I am a software developer.</p>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>PORTFOLIO</h2>
+      <h5>Customer Segmentation</h5>
+      <div><img src="img/cust-seg.png" alt="cust-seg" class="fakeimg"></div>
+      <p>Software to recognize customer segmentation</p>
+      <p>In this application, I just categorize 3 type of customer (Regular, Potential and VIP) but I believe it can be developed into more than 3 types.Customers who have the highest total purchases will be grouped into VIPs. Customers who have the lowest total purchases will be grouped into Regulars. And the ones who have the total purchases between highest and lowest will be Potential.Total purchases of customers will be the parameter to decided the segmentation.</p>
+      <br>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h2>Contact Me</h2>
+  <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/widygui">Instagram</a>
+  <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.github.com/widygui93">Github</a>
+</div>
+
 </body>
 </html>
