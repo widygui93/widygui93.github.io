@@ -8,6 +8,7 @@
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
 	 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -26,6 +27,10 @@
           d="M1 0L0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"
         ></path>
       </symbol>
+      <symbol id="verified" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+  		<path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
+      </symbol>      
     </svg>
 	<div class="container">
 <!--         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
@@ -162,7 +167,101 @@
             </div>
           </div>
         </div>
-      </div>        
+      </div>     
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Portfolios</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/portfolio-1-landing-page.jpg')">
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Landing Page & Company Profile
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                  	<svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Location"
+                    >
+                      <use xlink:href="#verified"></use>
+                      <small>Verified</small>
+                    </svg>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <small>Global Optima Distribusi</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/portfolio-2-food-order-sys.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Food & Beverage Order System
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                  	<svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Location"
+                    >
+                      <use xlink:href="#verified"></use>
+                      <small>Verified</small>
+                    </svg>  	
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <small>Sunny Cafe</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/portfolio-3-ebook-sys.png')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  eBook & eLearning System
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                  	<svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Location"
+                    >
+                      <use xlink:href="#verified"></use>
+                      <small>Verified</small>
+                    </svg>  
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <small>Unemi</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>         
 	</div>
 <!-- 	<div class='container'>
 		<div class='row' id='header'>
