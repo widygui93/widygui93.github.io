@@ -32,7 +32,28 @@
   -moz-user-select: none;
   user-select: none;
 }
+
+#agency-name {
+  color: whitesmoke;
+  background: linear-gradient(45deg, #3E807A, #3E807A 55%, #6EE6C7);
+}
+
+.navbar-wrapper {
+  background: linear-gradient(45deg, #3E807A, #3E807A 55%, #6EE6C7);
+}
+
+.GAS-logo {
+  height: 8vh;
+}
+
+.GAS-title {
+  display: none;
+}
 @media (min-width: 768px) {
+  .GAS-title {
+    color: whitesmoke;
+    display: block;
+  }
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
@@ -55,6 +76,9 @@
 .bi {
   vertical-align: -0.125em;
   fill: currentColor;
+}
+.nav-link {
+  color: whitesmoke;
 }
 .nav-scroller {
   position: relative;
