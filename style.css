@@ -49,9 +49,22 @@
 .GAS-title {
   display: none;
 }
+
+.menu-bar-lg {
+  display: none;
+}
 @media (min-width: 768px) {
   .GAS-title {
     color: whitesmoke;
+    display: block;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  #navbarsExample01 {
+    display: none;
+  }
+  .menu-bar-lg {
     display: block;
   }
   .bd-placeholder-img-lg {
