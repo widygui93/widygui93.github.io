@@ -30,7 +30,16 @@
       <symbol id="verified" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
   		<path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
-      </symbol>      
+      </symbol>  
+      <symbol id="check-signed" viewBox="0 0 16 16">
+      	<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/>
+      </symbol> 
+	  <symbol id="x-signed" viewBox="0 0 16 16">
+      	<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+      </symbol>  
+      <symbol id="best-buy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6EE6C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-thumbs-up">
+      	<path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+      </symbol>  
     </svg>
 	<div class="container">
       <nav class="navbar fixed-top navbar-wrapper" aria-label="First navbar example">
@@ -42,7 +51,7 @@
 	            <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
 	            <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
 	            <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
-	            <li class="nav-item"><a class="nav-link" href="#">Paket</a></li>
+	            <li class="nav-item"><a class="nav-link" href="#Paket">Paket</a></li>
 	            <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
 	          </ul>          	
           </div>
@@ -62,7 +71,7 @@
               <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
               <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
               <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Paket</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Paket">Paket</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
             </ul>
           </div>
@@ -75,9 +84,9 @@
             Tingkatkan nilai bisnis anda bersama <strong id="agency-name">Guilias Advance Solution</strong>. Tim profesional kami dapat membantu anda memiliki website responsive, SEO Friendly dan Relevan terhadapat bisnis anda.
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-success btn-lg px-4 gap-3">
+            <a type="button" class="btn btn-success btn-lg px-4 gap-3" href="#Paket">
               Lihat Paket Harga
-            </button>
+            </a>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
               Yuk, Konsultasi gratis
             </button>
@@ -431,6 +440,386 @@
             </div>
           </div>
         </div>
+      </div>
+      <h2 class="pb-2 border-bottom" id="Paket">Paket</h2>     
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center g-4 py-5">
+	      <div class="col">
+	        <div class="card mb-4 rounded-3 shadow-sm">
+	          <div class="card-header py-3">
+	            <h4 class="my-0 fw-normal">Basic</h4>
+	          </div>
+	          <div class="card-body">
+	            <h1 class="card-title pricing-card-title">
+	              <small class="text-body-secondary fw-light">Rp</small>1.200.000
+	            </h1>
+	            <ul class="list-unstyled mt-3 mb-4 text-start lh-lg">
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg>  
+	              	Max 5 Pages
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Mobile Responsive
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Hosting & Maintenance 1 tahun
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	10 kali revisi
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#x-signed"></use>
+	                </svg> 
+	              	Domain tidak termasuk (bisa dibantu)
+	              </li>
+	            </ul>
+	            <button
+	              type="button"
+	              class="w-100 btn btn-lg btn-outline-success"
+	            >
+	              Pesan Sekarang
+	            </button>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col">
+	        <div class="card mb-4 rounded-3 card-highlighter">
+	          <div class="card-header py-3 d-flex justify-content-center">
+	            <h4 class="my-0 fw-normal">Professional</h4>
+	            <svg
+	                class="bi me-2"
+	                width="2em"
+	                height="2em"
+	                role="img"
+					aria-label="Location"
+	            >
+					<use xlink:href="#best-buy"></use>
+	            </svg>
+	          </div>
+	          <div class="card-body">
+	            <h1 class="card-title pricing-card-title">
+	              <small class="text-body-secondary fw-light">Rp</small>2.200.000
+	            </h1>
+	            <ul class="list-unstyled mt-3 mb-4 text-start lh-lg">
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg>  
+	              	Max 10 Pages
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Mobile Responsive
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Hosting & Maintenance 1 tahun
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	20 kali revisi
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Domain .com termasuk (1 tahun)
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Integrasi google maps (lokasi usaha)
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Integrasi tombol Call To Action via WhatsApp
+	              </li>	              	              
+	            </ul>
+	            <button
+	              type="button"
+	              class="w-100 btn btn-lg btn-outline-success"
+	            >
+	              Pesan Sekarang
+	            </button>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col">
+	        <div class="card mb-4 rounded-3 shadow-sm">
+	          <div class="card-header py-3">
+	            <h4 class="my-0 fw-normal">Enterprise</h4>
+	          </div>
+	          <div class="card-body">
+	            <h1 class="card-title pricing-card-title">
+	              <small class="text-body-secondary fw-light">Rp</small>5.000.000
+	            </h1>
+	            <ul class="list-unstyled mt-3 mb-4 text-start lh-lg">
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg>  
+	              	Max 20 Pages
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Mobile Responsive
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Hosting & Maintenance 1 tahun
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Unlimited revisi
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Animasi display
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Integrasi google maps (lokasi usaha)
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Integrasi tombol Call To Action via WhatsApp
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Free max 2 fitur khusus
+	              </li>	              	              	              
+	            </ul>
+	            <button
+	              type="button"
+	              class="w-100 btn btn-lg btn-outline-success"
+	            >
+	              Pesan Sekarang
+	            </button>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col">
+	        <div class="card mb-4 rounded-3 shadow-sm">
+	          <div class="card-header py-3">
+	            <h4 class="my-0 fw-normal">Custom</h4>
+	          </div>
+	          <div class="card-body">
+	            <h1 class="card-title pricing-card-title">
+	              <small class="text-body-secondary fw-light">Custom Aplikasi & Integrasi Sistem</small>
+	            </h1>
+	            <ul class="list-unstyled mt-3 mb-4 text-start lh-lg">
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg>  
+	              	Durasi dan harga project sesuai hasil kesepakatan
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Konsultasi mendalam terkait kebutuhan bisnis
+	              </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 	              	
+	              	Integrasi Custom API 
+	          	  </li>
+	              <li>
+	              	<svg
+	                      class="bi me-2"
+	                      width="1em"
+	                      height="1em"
+	                      role="img"
+	                      aria-label="Location"
+	                >
+						<use xlink:href="#check-signed"></use>
+	                </svg> 
+	              	Cocok untuk transformasi bisnis konvensional ke berbasis digital
+	              </li>
+	            </ul>
+	            <button
+	              type="button"
+	              class="w-100 btn btn-lg btn-outline-success"
+	            >
+	              Pesan Sekarang
+	            </button>
+	          </div>
+	        </div>
+	      </div>	      	      	  
       </div>
 	</div>
 <!-- 	<div class='container'>
