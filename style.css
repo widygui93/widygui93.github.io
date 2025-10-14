@@ -134,3 +134,8 @@
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
+
+.card-highlighter {
+  border: 1px solid #6EE6C7;
+  box-shadow: 5px 5px #6EE6C7;
+}
