@@ -136,6 +136,16 @@
 }
 
 .card-highlighter {
-  border: 1px solid #6EE6C7;
-  box-shadow: 5px 5px #6EE6C7;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px rgba(110, 230, 199, 0.7); /* Initial glow equal to #6EE6C7; */
+  animation: glow-pulse 1s infinite alternate; /* Animate the glow */
+}
+
+@keyframes glow-pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(110, 230, 199, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 25px rgba(110, 230, 199, 1); /* Brighter, wider glow */
+  }
 }
