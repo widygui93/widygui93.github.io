@@ -149,3 +149,5 @@
     box-shadow: 0 0 25px rgba(110, 230, 199, 1); /* Brighter, wider glow */
   }
 }
+
+#map { height: 180px; }
